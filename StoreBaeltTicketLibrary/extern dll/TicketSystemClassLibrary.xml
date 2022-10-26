@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TicketSystemClassLibrary</name>
+    </assembly>
+    <members>
+        <member name="T:TicketSystemClassLibrary.Model.Car">
+            <summary>
+            en class der kan oprette et object af en bil
+            </summary>
+        </member>
+        <member name="M:TicketSystemClassLibrary.Model.Car.Price">
+            <summary>
+            en metode der retuner prisen for en bil
+            </summary>
+            <returns>prisen for en bil</returns>
+        </member>
+        <member name="M:TicketSystemClassLibrary.Model.Car.VehicleType">
+            <summary>
+            en metode der retuner et object af en bil
+            </summary>
+            <returns>retuner en bil</returns>
+        </member>
+        <member name="T:TicketSystemClassLibrary.Model.MC">
+            <summary>
+            en class der kan oprette et object af en MC
+            </summary>
+        </member>
+        <member name="M:TicketSystemClassLibrary.Model.MC.Price">
+            <summary>
+            en metode der give prisen for en motorcykle
+            </summary>
+            <returns>prisen for en motorcykle</returns>
+        </member>
+        <member name="M:TicketSystemClassLibrary.Model.MC.VehicleType">
+            <summary>
+            en metode der retuner et object af en motorcykle
+            </summary>
+            <returns>retuner en motorcykle</returns>
+        </member>
+    </members>
+</doc>
