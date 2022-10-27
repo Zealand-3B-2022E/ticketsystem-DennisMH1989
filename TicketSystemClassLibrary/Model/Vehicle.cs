@@ -11,10 +11,23 @@ namespace TicketSystemClassLibrary.Model
     /// </summary>
     public abstract class Vehicle
     {
+        private string _licensePlate = "";
+
         /// <summary>
         /// property for licenseplate for base classen
         /// </summary>
-        public abstract string LicensePlate { get; set; }
+        public string LicensePlate
+        {
+            get { return _licensePlate; }
+            set
+            {
+                if (value.Length > 7)
+                {
+                    throw new ArgumentException("value to long Needs to be less then 7");
+                }
+                _licensePlate = value;
+            }
+        }
         /// <summary>
         /// property for daten for base classen
         /// </summary>

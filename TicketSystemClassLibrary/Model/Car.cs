@@ -11,24 +11,9 @@ namespace TicketSystemClassLibrary.Model
     /// </summary>
     public class Car : Vehicle
     {
-        private string _licensePlate;
         private DateTime _date;
         private bool _brobizz;
-        /// <summary>
-        /// property for bilen licenseplate hvor den er limitede til 7 tegn
-        /// </summary>
-        public override string LicensePlate
-        {
-            get { return _licensePlate; }
-            set
-            {
-                if (value.Length > 7)
-                {
-                    throw new ArgumentException("value to long Needs to be less then 7");
-                }
-                _licensePlate = value;
-            }
-        }
+        
         /// <summary>
         /// property til at hente og sætte datoen for overkørselsen
         /// </summary>
