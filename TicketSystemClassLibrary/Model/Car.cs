@@ -40,11 +40,12 @@ namespace TicketSystemClassLibrary.Model
         /// <summary>
         /// defoult constroctor for Mc
         /// </summary>
-        public Car()
+        public Car():
+            this("0000000", DateTime.Now, false)
         {
-            LicensePlate = "0000000";
-            Date = DateTime.Now;
-            Brobizz = false;
+            //LicensePlate = "0000000";
+            //Date = DateTime.Now;
+            //Brobizz = false;
         }
         /// <summary>
         /// konstroctor med parameterne 
